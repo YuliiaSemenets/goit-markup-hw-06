@@ -297,14 +297,9 @@
     <footer class="finish">
       <div class="conteiner finish">
         <div class="main-adress">
-          <div>
-            <img
-              class="footer-logo"
-              src="./img/WebStudio.png"
-              alt="WebStudio"
-              width="129"
-            />
-
+          <div class="">
+            <img class="footer-logo" src="./img/WebStudio.png" alt="WebStudio" width="129" />
+    
             <div class="adress-block">
               <address class="adress-title">
                 г. Киев, пр-т Леси Украинки, 26
@@ -315,7 +310,7 @@
               </address>
             </div>
           </div>
-
+    
           <div class="footer-list">
             <p class="paragraph">присоединяйтесь</p>
             <ul class="footer-contact">
@@ -349,13 +344,27 @@
               </li>
             </ul>
           </div>
-          <div class="lets-go">
-            <p class="paragraph">Подпишитесь на рассылку</p>
+          <div class="form-field-send">
+            <form>
+              <p class="paragraph">Подпишитесь на рассылку</p>
+              <div class="">
+                <input class="form-input-send" type="email" name="mail" id="mail" placeholder="E-mail" />
+                <label class="form-label-send" for="mail"></label>
+    
+                <button class="button-send">
+                  <span class="text">Подписаться</span>
+                  <svg class="send-icon">
+                    <use href="./img/sprite.svg#icon-icon-send"></use>
+                  </svg>
+                </button>
+    
+            </form>
           </div>
         </div>
-        <div class="go-it">
-          <p class="">2020 | Developed by GoIT Students</p>
-        </div>
+      </div>
+      <div class="go-it">
+        <p class="">2020 | Developed by GoIT Students</p>
+      </div>
       </div>
     </footer>
   </body>
