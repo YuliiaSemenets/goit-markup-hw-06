@@ -546,11 +546,11 @@ p {
 .finish {
   position: relative;
   background-color: var(--footer-color);
+  height: 253px;
 }
 
 .conteiner.finish {
   margin-top: 103px;
-  height: 253px;
 }
 
 .footer-logo {
@@ -612,11 +612,12 @@ p {
 /* Автор и год */
 
 .go-it {
-  margin-top: 68px;
+  position: absolute;
+  top: 211px;
+  left: 431px;
   color: var(--goit-color);
   font-size: 12px;
   line-height: 2;
-  text-align: center;
 }
 
 /* Наши проэкты */
@@ -935,7 +936,7 @@ textarea {
 .checkbox:checked {
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(../img/icon\check\\(1\).svg);
+  background-image: url(../img/check.svg);
 }
 
 .close-button {
